@@ -1,0 +1,156 @@
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    max-width: 375px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    position:absolute;
+    filter: blur(2px);
+    backdrop-filter: blur(2px);
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.sidebar {
+    height: 100%;
+    width: 50%;
+    background-image: linear-gradient(to bottom, #E578A3, #fff, #64c2b7);
+    position: absolute;
+    text-align: center;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;    
+}
+
+nav {
+    background-color: #d61c63;
+    opacity: 60%;
+    height: 50px;
+    width: 380px;
+    margin: -10px;
+    right:-3px;
+    text-align: center;
+    padding: 20px 0px 25px 0px;
+}
+
+.logo {
+    height: 60px;
+    width: 60px;
+    z-index: 5;
+}
+
+.logo2 {
+    height: 80px;
+    width: 80px;
+    z-index: 2;
+    padding: 25px;
+    position: absolute;
+    bottom: 5px;
+    left: 30px;
+
+    
+}
+
+.box-1 {
+    height: 187.5px;
+    width: 188px;
+    background-color: #75c4ba;
+    position: absolute;
+    left: 0px;
+    top: 93px;
+    display: inline-block;
+}
+
+.box-2 {
+    height: 187.5px;
+    width: 189px;
+    background-color: #BEE7E2;
+    display: inline-block;
+    position: absolute;
+    right: -2px;
+    top: 93px;
+    
+}
+
+.box-3 {
+    height: 188.5px;
+    width:  380px;
+    background-color: #64c2b7;
+    color: #fff;
+    opacity: 80%;
+    position: relative;
+    top: 198px;
+    right: 10px;
+
+}
+
+.box-4 {
+    height: 190px;
+    width: 190px;
+    background-color: #75c4ba;
+    position: absolute;
+    right: -3px;
+    top: 469px;
+    display: inline-block;
+}
+
+.box-5 {
+    height: 187.5px;
+    width: 190px;
+    background-color: #BEE7E2;
+    display: inline-block;
+    position: absolute;
+    left: -3px;
+    top: 469px;
+    
+}
+
+.box-6 {
+    height: 188px;
+    width:  380px;
+    background-color: #64c2b7;
+    color: #fff;
+    position: relative;
+    top: 386px;
+    right: 10px;
+
+}
+
+.text1 {
+    padding: 56px 30px;
+    font-weight: bold;
+    color:#fff;
+    font-size: 21px;
+}
+
+.text2 {
+    padding: 56px 20px;
+    font-weight: bold;
+    color:#35b8a8;
+    font-size: 21px;
+}
+
+.text3 {
+    padding: 60px;
+    text-align: center;
+    font-weight: bold;
+    color:#fff;
+    font-size: 21px;
+}
+
